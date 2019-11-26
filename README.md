@@ -19,7 +19,7 @@ __A `Square` is a `Rectangle`, so inheriting form `Rectangle` class to make a `S
 ## [I]nterface Segregation Principle
 Clients should not be forced to depend upon interfaces that they don't use.
 
-__Consider you have an interface called `IFile` with 2 methods, `Read` and `Write`, and now you want to add a class for _just_ reading file, e.g: `FileReader`, if you use `IFile` interface for this class, you have to implement `Write` method too, and that's the problem.__
+__Consider you have an interface called `IFile` with 2 methods, `Read` and `Write`, and now you want to add a class _just_ for reading file, e.g: `FileReader`, if you use `IFile` interface for this class, you have to implement `Write` method too, and that's the problem.__
 
 ## [D]ependency Inversion Principle
 High level modules should not depend on low level modules, both should depend on abstractions.
